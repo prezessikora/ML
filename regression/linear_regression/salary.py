@@ -6,8 +6,8 @@ from sklearn.model_selection import train_test_split
 # Load the dataset
 dataset = pd.read_csv('./regression/linear_regression/Salary_Data.csv')
 
-X = dataset.iloc[:,:-1].values
-y = dataset.iloc[:,-1].values
+X = dataset.iloc[:,0].values.reshape(-1,1)
+y = dataset.iloc[:,1].values.reshape(-1,1)
 
 
 # 80 / 20 split and no random
