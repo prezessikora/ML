@@ -2,6 +2,6 @@
 
 Machine learning models
 
-## Regression
+## Regression /regression
 
-1. Linear regression fitting X -> y
+1. Simple linear regression model fitting X (years of xp) -> y (salary)

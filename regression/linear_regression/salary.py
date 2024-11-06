@@ -35,3 +35,12 @@ def plotDataAndFit(Xv,yv):
 
 plotDataAndFit(X_train,y_train)
 plotDataAndFit(X_test,y_test)
+
+# Making a single prediction
+
+print(regressor.predict([[12]]))
+
+# Getting line cooeficients
+
+print(regressor.coef_)
+print(regressor.intercept_)
